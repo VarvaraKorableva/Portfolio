@@ -1,0 +1,11 @@
+.experience__title {
+    text-align: center;
+}
+  
+.experience__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 500px;
+}
