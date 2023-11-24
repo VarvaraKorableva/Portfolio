@@ -1,27 +1,38 @@
 import React from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './Header.css'
 import myImage from '../../Images/mypic.jpg'
 
 function Header() {
+  const location = useLocation();
 
-return (
+  return (
     <header className="header">
         
             <nav className="header__navigation">
-              <div className="header__logo-container">
+              <Link to={`/`} className="header__logo-container header_link">
                 <div className="header__logo-round">VK</div>
                 <p className="header__logo">Varvara Korableva</p>
-              </div>
+              </Link>
               <ul className="header__container-items">
-                <li className="header__container-item">About me</li>
-                <li className="header__container-item">My Stack</li>
-                <li className="header__container-item">Projects</li>
-                <li className="header__container-item">Experience</li>
+                <li className="header__container-item">
+                  <Link to={`/about`} className='header_link'>About me</Link>
+                </li>
+                <li className="header__container-item">
+                  <Link to={`/projects`} className='header_link'>Projects</Link>
+                </li>
+                <li className="header__container-item">
+                  <Link to={`/experience`} className='header_link'>Experience</Link>
+                </li>
+                <li className="header__container-item">
+                  <Link to={`/education`} className='header_link'>Education</Link>
+                </li>
                 <li className="header__container-item">Contact</li>
               </ul>
             </nav>
-
-        <div className="header__container">
+        {location.pathname === '/'?    
+        <div className="header__container-wrapper">
+          <div className="header__container">
             <div className="header__title-container">
                 <h1 className="header__title">Korableva Varvara</h1>
                 <h2 className="header__subtitle">Web Developer</h2>
@@ -37,7 +48,11 @@ return (
                 </button>
             </div>
             <img src={myImage} className="header__img"></img>
+          </div>
         </div>
+        :
+        <></>
+        }
     </header>
 )
 }

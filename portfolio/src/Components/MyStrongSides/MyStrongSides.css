@@ -32,7 +32,7 @@
 .MyStrongSides__grid-item {
     list-style-type: none;
     border-radius: 20px;
-    border: 1px solid #F1F1F6;
+    border: none;
     height: 200px;
     padding: 10px;
     backdrop-filter: blur(8px);

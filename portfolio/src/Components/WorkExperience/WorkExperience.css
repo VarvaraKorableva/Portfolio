@@ -1,5 +1,11 @@
+.experience {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .experience__title {
     text-align: center;
+    margin-top: 0;
 }
   
 .experience__wrapper {
@@ -7,5 +13,5 @@
     flex-direction: column;
     margin: auto;
     justify-content: center;
-    width: 500px;
+    max-width: 750px;
 }

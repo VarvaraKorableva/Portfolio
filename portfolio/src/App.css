@@ -5,7 +5,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-/*
+  
+  
+  /*background-color: rgba(6, 89, 60, 0.5);
+    backdrop-filter: blur(8px); 
   background-image: url(./Images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: start;
