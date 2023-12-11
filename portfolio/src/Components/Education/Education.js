@@ -12,6 +12,16 @@ return (
                 <p className='education-item-academy'>Practicum by Yandex</p>
             </li>
             <li className='education-item'>
+                <p className='education-item-data'>2017</p>
+                <p className='education-item-info'>Crisis management, degree</p>
+                <p className='education-item-academy'>Plekhanov Russian University of Economics</p>
+            </li>
+            <li className='education-item'>
+                <p className='education-item-data'>2015 - 2016</p>
+                <p className='education-item-info'>Enterprise management, degree</p>
+                <p className='education-item-academy'>The State University of Management</p>
+            </li>
+            <li className='education-item'>
                 <p className='education-item-data'>2010-2014</p>
                 <p className='education-item-info'>Lawyer, Master's degree</p>
                 <p className='education-item-academy'>MFUA (Moscow Financial and Legal Academy)</p>

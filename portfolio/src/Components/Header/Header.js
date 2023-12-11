@@ -43,9 +43,7 @@ function Header() {
                     My ultimate goal is to enhance the user experience and provide a seamless 
                     and enjoyable browsing experience.
                 </p>
-                <button className="header__project-link">
-                    Take a look on my Pojects →
-                </button>
+                <Link to={`/projects`} className="header__project-link">Take a look on my Pojects →</Link> 
             </div>
             <img src={myImage} className="header__img"></img>
           </div>

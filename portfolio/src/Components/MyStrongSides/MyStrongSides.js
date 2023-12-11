@@ -20,8 +20,8 @@ return (
                 <p className='MyStrongSides__grid-item-text'>Optimize applications for maximum performance and scalability. Development of new projects and providing support for existing web services.</p>
             </li>
             <li className='MyStrongSides__grid-item'>
-                <h3 className='MyStrongSides__grid-item-title'>Responsive Design</h3>
-                <p className='MyStrongSides__grid-item-text'>Development of websites and applications adaptable to any device and screen size</p>
+                <h3 className='MyStrongSides__grid-item-title'>Full stack developer</h3>
+                <p className='MyStrongSides__grid-item-text'>Proficient in both frontend and backend development, with a comprehensive understanding of their interconnectivity and seamless integration to create efficient and user-friendly applications.</p>
             </li>
         </ul>
     </section>

@@ -1,7 +1,9 @@
 .education {
-    /*background-color: #fff;*/
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 .education-title {
     text-align: center;
@@ -12,7 +14,8 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    max-width: 750px;
+    /*max-width: 750px;*/
+    max-width: 800px;
 
 }
 .education-item {
@@ -20,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #F1F1F6;
-    height: 50px;
+    min-height: 50px;
 }
 .education-item-data {
     width: 15%;

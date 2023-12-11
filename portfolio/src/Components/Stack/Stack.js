@@ -17,6 +17,8 @@ return (
             <li className="stack__item">Node.js</li>
             <li className="stack__item">Express</li>
             <li className="stack__item">MongoDB</li>
+            <li className="stack__item">Python</li>
+            <li className="stack__item">SQL</li>
         </ul>
     </section>
 )

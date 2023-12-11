@@ -2,7 +2,10 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Projects.css'
 import MestoAddPic from '../../Images/mestoaddpic.png'
+import MestoMainPic from '../../Images/mestomainpic.png'
 
+import projectData from '../../data/projectsConst'
+//What-do-you-dream-about?
 
 function Projects() {
 
@@ -33,7 +36,7 @@ function Projects() {
                 <div className='projects__carusel'>
                     <h3 className='projects__carusel-project-name'>Project Mesto</h3>
                     <div className='projects__carusel-pic-container'>
-                        <img src={MestoAddPic} className='projects__carusel-pic' alt='NicePic from my project'></img>
+                        <img src={MestoMainPic} className='projects__carusel-pic' alt='NicePic from my project'></img>
                     </div>
                     
                     <p>This small app is all about adding pictures, like Instagram, but it's simpler.</p>

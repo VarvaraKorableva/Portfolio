@@ -1,24 +1,33 @@
 import React from 'react'
 import './About.css'
-import myImage from '../../Images/mypic.jpg'
 
 function About() {
 
 return (
     <section className='about'>
-        <h2>About me</h2>
-        <p>Hello, I'm so glad that you read this page, and I promis you would like it!</p>
-        <p>I absolutly know that you know that I'm Varvara and I'am web developer, but really 
-            most intepesting part of my live it whose I was befor and haw i deside to change my field.
-        </p>
-        <p>All times my dreame was to be a lower, maybe becose my dad is a lower, 
-            maybe becouse I just saw a lot of films in my chaldhood, but I did it. 
-            I study a really long time, when I find my first job, and work and work near 7 years, and I loved it.
-        </p>
-        <p>I was burn in Moscow and all my live was connected with Russia, but today it's 
-            impossible for me live there and just look for everything what happend there, that's why I'm near two years citizen of Israel.
-        </p>
-
+        <h2 className='about__title'>About me</h2>
+        <div className='about__text-continer'>
+          <p className='about__text'>Hello! I'm glad you're here and I'm sure you'll find this page interesting!</p>
+          <p className='about__text'>My name is Varvara, and I'm a web developer. But the most intriguing part of my 
+          life is who I was before and how I decided to switch career paths.
+          </p>
+          <p className='about__text'>For most of my life, my dream was to become a lawyer, perhaps because my 
+          father is a lawyer, or maybe simply because I watched a lot of law-related movies during my childhood. 
+          And I achieved that dream! I studied rigorously and for a long time, finally landing my first job and 
+          working continuously for almost 7 years as a lawyer, which I loved.
+          </p>
+          <p className='about__text'>A few years ago, I decided to do something extraordinary and started 
+          learning web development. I began with beginner-level materials, then progressed to more advanced 
+          resources—many books, serious professional courses—and voila! I secured my first job as a web developer. 
+          I'm incredibly grateful to my friend Sergey for believing in me!
+          </p>
+          <p className='about__text'>Now, I work as a frontend developer at Veles Research, and my dreams keep 
+          coming true.</p>
+          <p className='about__text'>I've completed over 15 projects from scratch using React, collaborated with 
+          amazing teams, and I continue to grow every day.</p>
+          <p className='about__text'>I'm passionate about sports (snowboarding, climbing, paragliding), 
+          music, and traveling (having explored more than 30 countries). My goal is to be happy and healthy.</p>
+        </div>
 
     </section>
 )

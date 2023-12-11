@@ -1,20 +1,9 @@
 .App {
-  /*background-color: #F1F1F6;*/
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  
-  
-  /*background-color: rgba(6, 89, 60, 0.5);
-    backdrop-filter: blur(8px); 
-  background-image: url(./Images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-position: start;
-  background-size: cover;
-  background-image: url(./Images/annie-spratt-i5MW_nrHi1k-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;*/
+  justify-content: flex-start;
+  background-color: rgba(6, 89, 60, 0.1);
+  min-height: 100vh;
 }
