@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Projects.css'
-import MestoAddPic from '../../Images/mestoaddpic.png'
-import MestoMainPic from '../../Images/mestomainpic.png'
+import MestoMainPic from '../../Images/MestoMainPic.png'
+import MestoAddPic from '../../Images/MestoPopup.png'
+
 
 import projectData from '../../data/projectsConst'
 //What-do-you-dream-about?

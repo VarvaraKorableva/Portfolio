@@ -18,7 +18,7 @@ return (
             <li className="stack__item">Express</li>
             <li className="stack__item">MongoDB</li>
             <li className="stack__item">Python</li>
-            <li className="stack__item">SQL</li>
+            <li className="stack__item">PostgreSQL</li>
         </ul>
     </section>
 )

@@ -26,12 +26,14 @@
 }
 
 .project__carusel-pic {
-    width: 300px;
-    height: 250px;
-    object-fit: cover;
-    background-size: cover;
+    width: 250px;
+    
+    object-fit:contain;
+    /*background-size: cover;
+    height: 250px;*/
     background-position: center;
     transition: 1s ease;
+    margin: 5px;
 }
 
 .project__carusel-pic:hover {
@@ -41,4 +43,9 @@
 
 .project__carusel-project-name {
     text-align: center;
+}
+
+.project__carusel-pic-container {
+    display: flex;
+    justify-content: center;
 }
