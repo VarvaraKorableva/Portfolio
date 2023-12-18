@@ -3,15 +3,16 @@ import './ProjectContainer.css'
 import Pogination from '../Pogination/Pogination'
 import Project from '../Project/Project'
 
-import projectData from '../../data/projectsConst'
+import * as projectData from '../../data/projectsConst'
+
 //What-do-you-dream-about?
 
 function ProjectContainer() {
 
   const[currentPage, setCurrentPage] = React.useState(0)
-  const[toRender, setToRender] = React.useState([projectData[0], projectData[1]])
+  const[toRender, setToRender] = React.useState([projectData.projects[0], projectData.projects[1]])
   let quantityPerPage = 2 //кол на 1 странице
-  let newArray = Math.trunc(projectData.length / quantityPerPage)
+  let newArray = Math.trunc(projectData.projects.length / quantityPerPage)
 
   let totalPages = []
   for (let i = 1; i < newArray; i++) {
@@ -25,7 +26,7 @@ function ProjectContainer() {
   function getVisibleItems(){
     let start = currentPage * quantityPerPage
     let end = (currentPage + 1) * quantityPerPage
-    let current_arr = projectData.slice(start, end)
+    let current_arr = projectData.projects.slice(start, end)
     setToRender(current_arr)
   }
 
