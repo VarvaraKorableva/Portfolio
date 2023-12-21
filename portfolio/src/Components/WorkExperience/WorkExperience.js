@@ -9,17 +9,19 @@ return (
           <div className="experience__wrapper">
             <h3 className="experience__subtitle">Dec 2022 - Present: Web-Developer, Veles Research, (Software Development)</h3>
             <ul className="experience__container">
-                <li>Application development (learning platform, testing task platform, 
-                    online store, social network)
+                <li>Participating in the development of an online store, a testing platform, 
+                    and a social network (Responsible for data validation, API and layout design in React),
                 </li>
                 <li>
-                    Participation in the design and architecture of applications and websites
+                    Participating in designing and structuring applications and websites 
+                    in cooperation with backend developers, contributing to the creation of APIs, 
+                    code merging, and reviewing processes,
                 </li>
                 <li>
                     Collaborate with Backend Developers (Python, Django, DRF, PostgeSQL, 
-                    Ruby on Rails,NodeJS) to create API, merge and review code
+                    Ruby on Rails, NodeJS) to create API, merge and review code,
                 </li>
-                <li>Refactoring of the codebase, including branch management and merging changes
+                <li>Refactoring of the codebase
                 </li>
             </ul>
             <h3 className="experience__subtitle">Nov 2021 - Oct 2022: Web-Developer (Student) in Practicum by Yandex (Educational Platform)</h3>

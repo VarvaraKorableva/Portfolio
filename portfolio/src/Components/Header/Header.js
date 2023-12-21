@@ -27,7 +27,9 @@ function Header() {
                 <li className="header__container-item">
                   <Link to={`/education`} className='header_link'>Education</Link>
                 </li>
-                <li className="header__container-item">Contact</li>
+                <li className="header__container-item">
+                  <Link to={'/contacts'} className='header_link'>Contact</Link>
+                </li>
               </ul>
             </nav>
         {location.pathname === '/'?    
