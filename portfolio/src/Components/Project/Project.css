@@ -16,6 +16,7 @@
 .project__item {
     list-style-type: none;
     display: flex;
+    margin: auto;
     /*border: 1px solid black;*/
     
 }
@@ -48,4 +49,20 @@
 .project__carusel-pic-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+}
+
+.project__link {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+    color: black;
+}
+
+.project__link:hover {
+    opacity: 1;
+}
+
+.project__carusel {
+    margin: 10px;
 }

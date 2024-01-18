@@ -12,8 +12,8 @@ return (
                 <p className='MyStrongSides__grid-item-text'>Development of websites and applications adaptable to any device and screen size. Transforming Figma designs into responsive layouts, paying meticulous attention to pixel-perfect implementation.</p>
             </li>
             <li className='MyStrongSides__grid-item'>
-                <h3 className='MyStrongSides__grid-item-title'>APIs</h3>
-                <p className='MyStrongSides__grid-item-text'>Working with APIs for interaction with servers and databases, creating custom APIs, and interfacing with third-party services.</p>
+                <h3 className='MyStrongSides__grid-item-title'>API</h3>
+                <p className='MyStrongSides__grid-item-text'>Working with API for interaction with servers and databases, creating custom API, and interfacing with third-party services.</p>
             </li>
             <li className='MyStrongSides__grid-item'>
                 <h3 className='MyStrongSides__grid-item-title'>Optimize applications</h3>

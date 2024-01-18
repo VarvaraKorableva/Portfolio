@@ -14,10 +14,10 @@ function Project({project}) {
             <img src={project.picsecond} className='project__carusel-pic' alt='NicePic from my project'></img>
             <img src={project.picthird} className='project__carusel-pic' alt='NicePic from my project'></img>
         </div>
-        <a href={project.description.link}>Link</a>
-        <p>{project.description.description}</p>
-        <p>{project.description.mainIdea}</p> 
-        <p>{project.description.technologies}</p>   
+        <a href={project.description.link} target='_blank' className='project__link'>Link</a>
+        <p className='project__text'>{project.description.description}</p>
+        <p className='project__text'>{project.description.mainIdea}</p> 
+        <p className='project__text'>{project.description.technologies}</p>  
         </div>
     </li>
             

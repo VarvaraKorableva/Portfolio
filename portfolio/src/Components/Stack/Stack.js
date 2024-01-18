@@ -7,9 +7,11 @@ return (
    <section className="stack">
         <h2 className="stack__title">Stack</h2>
         <ul className="stack__containe">
-            <li className="stack__item">JavaScript</li> 
+            <li className="stack__item">JavaScript</li>
+            <li className="stack__item">ES6</li>
             <li className="stack__item">React</li>
             <li className="stack__item">Rest API</li>
+            <li className="stack__item">RESTful API</li>
             <li className="stack__item">Git</li>
             <li className="stack__item">Figma</li>
             <li className="stack__item">HTML5</li>

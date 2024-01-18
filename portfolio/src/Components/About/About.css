@@ -1,6 +1,11 @@
 .about {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    justify-content: center;
+    align-items: center;
 }
 
 .about__text-continer {
@@ -8,6 +13,7 @@
    flex-direction: column;
    max-width: 750px; 
    margin: auto;
+   margin-top: 20px;
 }
 
 .about__title {

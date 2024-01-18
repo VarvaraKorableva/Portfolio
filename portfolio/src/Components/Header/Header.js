@@ -47,7 +47,7 @@ function Header() {
                 </p>
                 <Link to={`/projects`} className="header__project-link">Take a look on my Pojects →</Link> 
             </div>
-            <img src={myImage} className="header__img"></img>
+            <img src={myImage} className="header__img" alt='My_pic'></img>
           </div>
         </div>
         :
